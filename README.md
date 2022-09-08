@@ -12,6 +12,12 @@ Kills all java.exe processes
 
 **Usage:** `killjava`
 
+### killpid
+
+Kills the process identified by the specified PID.
+
+**Usage:** `killpid <PID>`
+
 ### findport
 Lists all processes that use the specified port. The rightmost column represents the PID of the process
 
