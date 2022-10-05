@@ -32,5 +32,6 @@ Lists the file (executable) that is linked to the specified PID.
 ### randstr
 
 Generates a random string of specified length. The string is automatically added to the clipboard.
+You can use the optional "-p" parameter to add a prefix to the output string. The length of the prefix is subtracted to the required length, making the output string always conform to the specified length unless the prefix is longer than the required output.
 
-**Usage:** `randstr <length>`
+**Usage:** `randstr <length> -p prefixedString`
